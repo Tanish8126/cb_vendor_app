@@ -1,4 +1,4 @@
-library payoutscreen;
+library salesdata;
 
 export './bindings.dart';
 export './controller.dart';

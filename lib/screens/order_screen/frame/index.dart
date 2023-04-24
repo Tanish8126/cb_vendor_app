@@ -1,4 +1,4 @@
-library splashscreen;
+library ordersscreen;
 
 export './bindings.dart';
 export './controller.dart';

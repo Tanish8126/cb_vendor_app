@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
               title: 'Chai Vendor',
               debugShowCheckedModeBanner: false,
               theme: theme(),
-              initialRoute: LoginPage.routeName,
+              initialRoute: LoginScreen.routeName,
               routes: routes);
         });
   }

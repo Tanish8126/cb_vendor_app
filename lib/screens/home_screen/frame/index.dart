@@ -1,4 +1,4 @@
-library splashscreen;
+library homescreen;
 
 export './bindings.dart';
 export './controller.dart';

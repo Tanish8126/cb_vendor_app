@@ -2,9 +2,9 @@ import 'package:get/get.dart';
 
 import 'controller.dart';
 
-class SplashBindings implements Bindings {
+class OrdersScreenBindings implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => SplashController());
+    Get.lazyPut(() => OrdersScreenController());
   }
 }

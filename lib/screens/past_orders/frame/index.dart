@@ -1,4 +1,4 @@
-library splashscreen;
+library pastorders;
 
 export './bindings.dart';
 export './controller.dart';

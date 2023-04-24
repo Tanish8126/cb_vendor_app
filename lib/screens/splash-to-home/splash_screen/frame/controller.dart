@@ -11,7 +11,7 @@ class SplashController extends GetxController {
     super.onReady();
     Future.delayed(
       kDuration,
-      () => Get.offAllNamed(LoginPage.routeName),
+      () => Get.offAllNamed(LoginScreen.routeName),
     );
   }
 

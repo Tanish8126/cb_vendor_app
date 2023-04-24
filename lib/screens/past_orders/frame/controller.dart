@@ -2,6 +2,6 @@ import 'package:get/get.dart';
 
 import 'state.dart';
 
-class OrdersScreenController extends GetxController {
+class PastOrdersController extends GetxController {
   final state = OrdersScreenState();
 }

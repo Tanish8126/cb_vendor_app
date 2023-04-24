@@ -22,6 +22,7 @@ TextTheme textTheme() {
 AppBarTheme appBarTheme() {
   return const AppBarTheme(
       backgroundColor: kWhite,
+      iconTheme: IconThemeData(color: kBlack),
       elevation: 0,
       centerTitle: true,
       titleTextStyle: TextStyle(color: kBlack, fontSize: 18));

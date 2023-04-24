@@ -1,5 +1,7 @@
 import 'package:cb_vendor_app/screens/home_screen/home_screen.dart';
-import 'package:cb_vendor_app/screens/payout_screen/payout_screen.dart';
+import 'package:cb_vendor_app/screens/menu_items/menu_items_screen.dart';
+import 'package:cb_vendor_app/screens/past_orders/past_order_screen.dart';
+import 'package:cb_vendor_app/screens/sales_data/sales_data_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/constants/constants.dart';
@@ -15,7 +17,12 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _page = 0;
 
-  List<Widget> pages = [const HomeScreen(), const PayoutScreen()];
+  List<Widget> pages = [
+    const HomeScreen(),
+    const MenuItemsScreen(),
+    const PastOrderScreen(),
+    const SalesDataScreen()
+  ];
 
   onPageChange(int page) {
     setState(() {
@@ -40,28 +47,28 @@ class _MainScreenState extends State<MainScreen> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.favorite,
+              Icons.home,
             ),
-            label: 'Following',
+            label: 'Past Orders',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.add_rounded,
+              Icons.home,
             ),
-            label: 'Discover',
+            label: 'Menu Items',
           ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(
-          //     Icons.message_rounded,
-          //   ),
-          //   label: 'Messages',
-          // ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(
-          //     Icons.man_4_outlined,
-          //   ),
-          //   label: 'Browse',
-          // ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.home,
+            ),
+            label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.money,
+            ),
+            label: 'PayOut',
+          ),
         ],
       ),
       body: pages[_page],

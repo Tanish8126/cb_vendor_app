@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'components/body.dart';
 
-class OrderScreen extends StatelessWidget {
+class OrdersScreen extends StatelessWidget {
   static String routeName = './orderscreen';
-  const OrderScreen({super.key});
+  const OrdersScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

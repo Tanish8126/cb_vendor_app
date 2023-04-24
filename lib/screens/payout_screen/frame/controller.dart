@@ -2,6 +2,6 @@ import 'package:get/get.dart';
 
 import 'state.dart';
 
-class SplashController extends GetxController {
-  final state = SplashState();
+class PayoutScreenController extends GetxController {
+  final state = PayoutScreenState();
 }

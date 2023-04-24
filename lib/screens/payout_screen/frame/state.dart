@@ -1,1 +1,1 @@
-class SplashState {}
+class PayoutScreenState {}

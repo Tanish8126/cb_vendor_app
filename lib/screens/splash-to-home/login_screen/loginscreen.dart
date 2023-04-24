@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 import '../../../utils/constants/constants.dart';
 import 'frame/index.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginScreen extends StatelessWidget {
   static String routeName = './login';
-  LoginPage({Key? key}) : super(key: key);
+  LoginScreen({Key? key}) : super(key: key);
 
   final LoginScreenController _loginScreenController =
       Get.put(LoginScreenController());
