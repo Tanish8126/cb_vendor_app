@@ -1,3 +1,5 @@
+import 'package:cb_vendor_app/screens/home_screen/home_screen.dart';
+import 'package:cb_vendor_app/screens/payout_screen/payout_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/constants/constants.dart';
@@ -13,7 +15,7 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _page = 0;
 
-  List<Widget> pages = [];
+  List<Widget> pages = [const HomeScreen(), const PayoutScreen()];
 
   onPageChange(int page) {
     setState(() {
@@ -48,18 +50,18 @@ class _MainScreenState extends State<MainScreen> {
             ),
             label: 'Discover',
           ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.message_rounded,
-            ),
-            label: 'Messages',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.man_4_outlined,
-            ),
-            label: 'Browse',
-          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(
+          //     Icons.message_rounded,
+          //   ),
+          //   label: 'Messages',
+          // ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(
+          //     Icons.man_4_outlined,
+          //   ),
+          //   label: 'Browse',
+          // ),
         ],
       ),
       body: pages[_page],

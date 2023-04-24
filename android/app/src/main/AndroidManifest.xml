@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cb.vendorapp">
    <application
-        android:label="cb_vendor_app"
+        android:label="Chai Bun Vendor App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
