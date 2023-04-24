@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../utils/constants/constants.dart';
+import '../../../utils/constants/constants.dart';
 import 'components/body.dart';
 import 'frame/index.dart';
 

@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 
 import '../screens/home_screen/home_screen.dart';
-import '../screens/login_check/login_check.dart';
-import '../screens/login_screen/loginscreen.dart';
+import '../screens/splash-to-home/login_check/login_check.dart';
+import '../screens/splash-to-home/login_screen/loginscreen.dart';
 import '../screens/main_screen/main_screen.dart';
 import '../screens/notification_screen/notification_screen.dart';
 import '../screens/payout_screen/payout_screen.dart';
-import '../screens/splash_screen/splash_screen.dart';
+import '../screens/splash-to-home/splash_screen/splash_screen.dart';
 
 final Map<String, WidgetBuilder> routes = {
   SplashScreen.routeName: (context) => SplashScreen(),

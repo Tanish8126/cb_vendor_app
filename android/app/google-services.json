@@ -7,6 +7,110 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1054568346467:android:979a35ac3ff9ceda9f9956",
+        "android_client_info": {
+          "package_name": "com.cb.adminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054568346467-2b78difn7ilmdp4ehnqnmp6eidblu4vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cb.adminpanel",
+            "certificate_hash": "f6f7ba352bbad3a2a38cd3e26b891009dbec9c4e"
+          }
+        },
+        {
+          "client_id": "1054568346467-r0543l9op96jevuf9get7kmsvjdq2eko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cb.adminpanel",
+            "certificate_hash": "8463437ec74fa3dda6f8c9452c08a2c9284ff053"
+          }
+        },
+        {
+          "client_id": "1054568346467-ahbt9pgl7emdbq00mje9kfs8ali3lsao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIP0Znu_rSGIm82iWLtjzwS86qMS4PL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054568346467-ahbt9pgl7emdbq00mje9kfs8ali3lsao.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1054568346467-0s43ee4vu90udoaa641eo6tnn9s5udj2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.newcbapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054568346467:android:46b0ce58162912b89f9956",
+        "android_client_info": {
+          "package_name": "com.cb.vendorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054568346467-7rr792vae199593ros6sk7cd8cljoqep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cb.vendorapp",
+            "certificate_hash": "f6f7ba352bbad3a2a38cd3e26b891009dbec9c4e"
+          }
+        },
+        {
+          "client_id": "1054568346467-7v7t6pqrhjhg3d2gmd71tkmqtjet86rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cb.vendorapp",
+            "certificate_hash": "8463437ec74fa3dda6f8c9452c08a2c9284ff053"
+          }
+        },
+        {
+          "client_id": "1054568346467-ahbt9pgl7emdbq00mje9kfs8ali3lsao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYIP0Znu_rSGIm82iWLtjzwS86qMS4PL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054568346467-ahbt9pgl7emdbq00mje9kfs8ali3lsao.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1054568346467-0s43ee4vu90udoaa641eo6tnn9s5udj2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.newcbapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1054568346467:android:5348ec9106e2fcef9f9956",
         "android_client_info": {
           "package_name": "com.chaibun.newcbapp"
@@ -14,11 +118,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "1054568346467-g97come6nmaofopv5o7s6sic9h31r9c7.apps.googleusercontent.com",
+          "client_id": "1054568346467-59jdmi9c9mfcethori0tu8uotmakkbjt.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.chaibun.newcbapp",
-            "certificate_hash": "f6f7ba352bbad3a2a38cd3e26b891009dbec9c4e"
+            "certificate_hash": "b860272d628cf95c9e5fecb5d697872f3548b061"
           }
         },
         {

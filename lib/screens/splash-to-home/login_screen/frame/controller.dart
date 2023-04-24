@@ -1,3 +1,4 @@
+import 'package:cb_vendor_app/screens/main_screen/main_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 
@@ -11,6 +12,7 @@ class LoginScreenController extends GetxController {
       email: email,
       password: password,
     );
+    Get.offAllNamed(MainScreen.routeName);
   }
 
   final state = LoginScreenState();

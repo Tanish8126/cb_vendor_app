@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
 import 'global.dart';
-import 'screens/login_screen/loginscreen.dart';
+import 'screens/splash-to-home/login_screen/loginscreen.dart';
 import 'utils/routes.dart';
 import 'utils/theme.dart';
 

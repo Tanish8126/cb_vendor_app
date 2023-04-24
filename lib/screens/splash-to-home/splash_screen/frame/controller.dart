@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../../../utils/constants/constants.dart';
+import '../../../../utils/constants/constants.dart';
 
 import '../../login_screen/loginscreen.dart';
 import 'state.dart';

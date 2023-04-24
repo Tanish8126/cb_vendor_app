@@ -1,28 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../utils/constants/constants.dart';
+import '../../../utils/constants/constants.dart';
 import 'frame/index.dart';
 
 class LoginPage extends StatelessWidget {
+  static String routeName = './login';
+  LoginPage({Key? key}) : super(key: key);
+
   final LoginScreenController _loginScreenController =
       Get.put(LoginScreenController());
   final TextEditingController _emailcontroller = TextEditingController();
   final TextEditingController _passwordcontroller = TextEditingController();
-  static String routeName = './login';
-  LoginPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            "Login Page",
-          ),
-          elevation: 2,
-          leading: const Icon(Icons.arrow_back_ios),
-        ),
         body: SizedBox(
             width: double.infinity,
             child: Padding(
@@ -41,7 +35,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   SizedBox(height: SizeConfig.screenHeight * 0.02),
                   const Text(
-                    "Sign in with your email and password  \nor continue with social media",
+                    "Sign in with your email and password",
                     textAlign: TextAlign.center,
                     style: TextStyle(color: kPrimaryColor),
                   ),
@@ -101,7 +95,6 @@ class LoginPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  SizedBox(height: SizeConfig.screenHeight * 0.08),
                 ]),
               ),
             )));
