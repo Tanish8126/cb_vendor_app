@@ -61,7 +61,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                   await FirebaseAuth.instance.signOut();
                   Navigator.pushAndRemoveUntil(
                       context,
-                      MaterialPageRoute(builder: (context) => LoginPage()),
+                      MaterialPageRoute(builder: (context) => LoginScreen()),
                       (route) => false);
                 },
                 text: 'Sign Out',
