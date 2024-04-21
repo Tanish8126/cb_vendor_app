@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
 import 'global.dart';
-import 'screens/splash-to-home/login_screen/loginscreen.dart';
+import 'screens/splash-to-home/splash_screen/splash_screen.dart';
 import 'utils/routes.dart';
 import 'utils/theme.dart';
 
@@ -16,7 +16,7 @@ Future<void> main() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
               title: 'Chai Vendor',
               debugShowCheckedModeBanner: false,
               theme: theme(),
-              initialRoute: LoginScreen.routeName,
+              initialRoute: SplashScreen.routeName,
               routes: routes);
         });
   }

@@ -1,8 +1,8 @@
+import 'package:cb_vendor_app/screens/main_screen/main_screen.dart';
 import 'package:get/get.dart';
 
 import '../../../../utils/constants/constants.dart';
 
-import '../../login_screen/loginscreen.dart';
 import 'state.dart';
 
 class SplashController extends GetxController {
@@ -11,7 +11,7 @@ class SplashController extends GetxController {
     super.onReady();
     Future.delayed(
       kDuration,
-      () => Get.offAllNamed(LoginScreen.routeName),
+      () => Get.offAllNamed(MainScreen.routeName),
     );
   }
 

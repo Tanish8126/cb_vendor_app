@@ -15,8 +15,8 @@ class Body extends StatelessWidget {
             decoration: const BoxDecoration(color: kWhite),
             child: Column(
               children: [
-                Row(
-                  children: const [
+                const Row(
+                  children: [
                     Text("Sales overview"),
                     Spacer(),
                     Icon(Icons.arrow_forward)
@@ -25,8 +25,8 @@ class Body extends StatelessWidget {
                 Divider(
                   color: kBlack.withOpacity(0.2),
                 ),
-                Row(
-                  children: const [
+                const Row(
+                  children: [
                     Text("Today's Sales"),
                     Spacer(),
                     Text("4200"),
@@ -35,8 +35,8 @@ class Body extends StatelessWidget {
                 Divider(
                   color: kBlack.withOpacity(0.2),
                 ),
-                Row(
-                  children: const [
+                const Row(
+                  children: [
                     Text("Deliverd Orders"),
                     Spacer(),
                     Text("20"),

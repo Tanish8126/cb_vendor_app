@@ -8,7 +8,7 @@ import '../../../utils/constants/constants.dart';
 import '../../../utils/default_button.dart';
 
 class DrawerScreen extends StatefulWidget {
-  const DrawerScreen({Key? key}) : super(key: key);
+  const DrawerScreen({super.key});
 
   @override
   State<DrawerScreen> createState() => _DrawerScreenState();

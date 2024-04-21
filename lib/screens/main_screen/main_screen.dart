@@ -1,14 +1,14 @@
-import 'package:cb_vendor_app/screens/home_screen/home_screen.dart';
-import 'package:cb_vendor_app/screens/menu_items/menu_items_screen.dart';
-import 'package:cb_vendor_app/screens/past_orders/past_order_screen.dart';
-import 'package:cb_vendor_app/screens/sales_data/sales_data_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/constants/constants.dart';
+import '../home_screen/components/billing_screen.dart';
+import '../home_screen/home_screen.dart';
+import '../menu_items/menu_items_screen.dart';
+import '../past_orders/past_order_screen.dart';
 
 class MainScreen extends StatefulWidget {
   static String routeName = './main';
-  const MainScreen({Key? key}) : super(key: key);
+  const MainScreen({super.key});
 
   @override
   State<MainScreen> createState() => _MainScreenState();
@@ -21,7 +21,7 @@ class _MainScreenState extends State<MainScreen> {
     const HomeScreen(),
     const MenuItemsScreen(),
     const PastOrderScreen(),
-    const SalesDataScreen()
+    BillingScreen()
   ];
 
   onPageChange(int page) {
@@ -32,6 +32,7 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
         selectedItemColor: kBlack,
@@ -47,9 +48,9 @@ class _MainScreenState extends State<MainScreen> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.home,
+              Icons.receipt_long_rounded,
             ),
-            label: 'Past Orders',
+            label: 'Bill',
           ),
           BottomNavigationBarItem(
             icon: Icon(

@@ -1,5 +1,6 @@
-import 'package:cb_vendor_app/utils/constants/constants.dart';
 import 'package:flutter/material.dart';
+
+import '../../../utils/constants/constants.dart';
 
 class Body extends StatelessWidget {
   const Body({super.key});
@@ -8,36 +9,59 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Container(
-          padding: pda(0.02),
-          child: Column(
-            children: [
-              Row(
-                children: const [
-                  Text("Business Report"),
-                  Spacer(),
-                  Icon(Icons.arrow_forward)
-                ],
+        Row(
+          children: [
+            GestureDetector(
+              onTap: () {},
+              child: Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10), color: kCream),
+                padding: pda(0.02),
+                child: const Column(children: [
+                  Text("Bingo Mad Angles"),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [Text("350"), Text("10")],
+                  )
+                ]),
               ),
-              Container(
-                padding: pds(0, 0.02),
-                color: kMainColor,
-                child: Column(
+            ),
+            Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10), color: kCream),
+              padding: pda(0.02),
+              child: const Column(children: [
+                Text("Bingo Mad Angles"),
+              ]),
+            ),
+          ],
+        ),
+        Row(
+          children: [
+            //  FloatingActionButton(onPressed: (() {})),
+            sw03,
+            FloatingActionButton(onPressed: (() {})),
+            sw03,
+            Expanded(
+              child: TextButton(
+                style: TextButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20)),
+                  foregroundColor: kWhite,
+                  backgroundColor: kPrimaryColor,
+                ),
+                onPressed: () {},
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Row(
-                      children: [
-                        Column(
-                          children: const [Text("Today's sales"), Text("2100")],
-                        ),
-                        const Icon(Icons.blinds_closed)
-                      ],
-                    ),
-                    const Text("Last Months: 10000")
+                    Text('0.0', style: tsW(20)),
+                    sw03,
+                    Text('Bill', style: tsW(20)),
                   ],
                 ),
-              )
-            ],
-          ),
+              ),
+            ),
+          ],
         )
       ],
     );

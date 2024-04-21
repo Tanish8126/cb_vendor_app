@@ -6,7 +6,7 @@ import 'frame/index.dart';
 
 class LoginScreen extends StatelessWidget {
   static String routeName = './login';
-  LoginScreen({Key? key}) : super(key: key);
+  LoginScreen({super.key});
 
   final LoginScreenController _loginScreenController =
       Get.put(LoginScreenController());

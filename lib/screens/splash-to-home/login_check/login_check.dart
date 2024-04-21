@@ -5,7 +5,7 @@ import '../login_screen/loginscreen.dart';
 import '../../main_screen/main_screen.dart';
 
 class LoginCheck extends StatelessWidget {
-  const LoginCheck({Key? key}) : super(key: key);
+  const LoginCheck({super.key});
   static String routeName = "/logincheck";
 
   @override
